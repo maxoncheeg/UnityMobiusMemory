@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIBuilder/jordanButton.uss?fileID=7433441132597879392&amp;guid=6685ba364a806d14d9f42ab57c756d99&amp;type=3#jordanButton" />
+    <ui:VisualElement class="jordanVisualElement">
+        <ui:Label tabindex="-1" text="MOBIUS MEMORY" display-tooltip-when-elided="true" name="LabelTitle" class="jordanLabel" style="font-size: 50%;" />
+        <ui:Button text="ИГРАТЬ" display-tooltip-when-elided="true" name="ButtonSinglePlay" class="jordanButton" style="font-size: 25%;" />
+        <ui:Button text="СЕТЕВАЯ ПИЖНЯ" display-tooltip-when-elided="true" name="ButtonMultiplayer" class="jordanButton" style="font-size: 25%;" />
+    </ui:VisualElement>
+</ui:UXML>

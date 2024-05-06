@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIBuilder/jordanButton.uss?fileID=7433441132597879392&amp;guid=6685ba364a806d14d9f42ab57c756d99&amp;type=3#jordanButton" />
+    <ui:VisualElement class="jordanVisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:Label tabindex="-1" text="MOBIUS MEMORY" display-tooltip-when-elided="true" class="jordanLabel" style="font-size: 50%;" />
+        <ui:Label tabindex="-1" text="СЕРВЕР" display-tooltip-when-elided="true" class="jordanLabel" style="font-size: 50%; color: rgb(221, 182, 198);" />
+        <ui:TextField picking-mode="Ignore" label="IP" value="192.168.0.228" hide-mobile-input="false" focusable="true" name="textIP" keyboard-type="NumbersAndPunctuation" class="myTextField unity-base-text-field__input" style="font-size: 40%; height: 91px; width: 255px;" />
+        <ui:TextField picking-mode="Ignore" label="PORT" value="666" hide-mobile-input="false" focusable="true" name="textPort" keyboard-type="NumberPad" password="false" readonly="false" class="unity-base-text-field__input" style="align-items: flex-start; flex-direction: column; justify-content: flex-start; align-self: auto; width: 100%; -unity-font: url(&apos;project://database/Assets/UIBuilder/Fifaks10Dev1.ttf?fileID=12800000&amp;guid=e38eaab052276b7449dda04dcbba17cc&amp;type=3#Fifaks10Dev1&apos;); -unity-font-definition: initial; font-size: 40%; -unity-text-outline-color: rgba(0, 0, 0, 0); color: rgb(123, 76, 63); min-height: 66px;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 10%; min-height: 10%; align-items: stretch; justify-content: flex-start; flex-direction: row;">
+            <ui:Label tabindex="-1" text="Количество клиентов:" display-tooltip-when-elided="true" style="font-size: 14px;" />
+            <ui:Label tabindex="-1" text="0&#10;" display-tooltip-when-elided="true" name="labelClientsAmount" />
+        </ui:VisualElement>
+        <ui:Button text="ЗАПУСТИТЬ СЕРВЕР" display-tooltip-when-elided="true" name="buttonStartServer" class="jordanButton" style="font-size: 20%;" />
+        <ui:Button text="НАЧАТЬ ИГРУ" display-tooltip-when-elided="true" name="buttonStartGame" class="jordanButton" style="font-size: 20%;" />
+    </ui:VisualElement>
+</ui:UXML>
